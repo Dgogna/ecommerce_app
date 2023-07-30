@@ -1,0 +1,14 @@
+
+.nav-link{
+    color: rgb(138, 132, 133);
+  }
+.nav-link:hover{
+    color: rgb(24, 23, 23);
+  }
+
+  .footer{
+    margin-bottom: 0px;
+    padding: -10px;
+    height: 10px;
+  }
+

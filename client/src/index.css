@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@700&family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* font-family: 'Play', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+
+    
+
+.navbar {
+    margin-top: 13px;
+    border-bottom: 2px solid rgb(92, 89, 89);
+    border-radius: 23px;
+    padding: 14px;
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    line-height: 28px;
+    /* text-transform: uppercase; */
+    /* box-shadow: 0 8px 6px -6px gray; */
+    /* --webkit-box-shadow: 0 8px 6px -6px gray; */
+    /* border-bottom: solid gray !important; */
+  }
+  
+  .nav-link {
+    font-weight: 400 !important;
+  }
+  
+  .active {
+    border-bottom: 2px solid rgb(94, 91, 91);
+    /* border-left: 1px solid rgb(94, 91, 91); */
+    border-radius: 5%;
+  }
+  
+ 
+  
+  .navbar-brand {
+    font-weight: 900;
+    font-size: 30px;
+    /* font-family: "Play", sans-serif; */
+    letter-spacing: 3px;
+  }
+
+  .product-link {
+    text-decoration: none !important;
+    color: black !important;
+  }
+
+
+
+
+
+  .pnf {
+    display: flex;
+    min-height: 65vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .pnf-title {
+    font-size: 100px;
+    font-weight: 700;
+  }
+  
+  .pnf-heading {
+    font-weight: normal;
+  }
+  
+  .pnf-btn {
+    color: black;
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  .pnf-btn:hover {
+    background-color: black;
+    color: white;
+  }
+
+
+  .contactus {
+    margin: 0;
+    padding: 0;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
